@@ -1,0 +1,248 @@
+{
+  "pagina_principal": [
+    {
+      "titulo": "A Light in the Attic",
+      "precio": 51.77,
+      "disponibilidad": true,
+      "calificacion": 3
+    },
+    {
+      "titulo": "Tipping the Velvet",
+      "precio": 53.74,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "Soumission",
+      "precio": 50.1,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "Sharp Objects",
+      "precio": 47.82,
+      "disponibilidad": true,
+      "calificacion": 4
+    },
+    {
+      "titulo": "Sapiens: A Brief History of Humankind",
+      "precio": 54.23,
+      "disponibilidad": true,
+      "calificacion": 5
+    },
+    {
+      "titulo": "The Requiem Red",
+      "precio": 22.65,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "The Dirty Little Secrets of Getting Your Dream Job",
+      "precio": 33.34,
+      "disponibilidad": true,
+      "calificacion": 4
+    },
+    {
+      "titulo": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+      "precio": 17.93,
+      "disponibilidad": true,
+      "calificacion": 3
+    },
+    {
+      "titulo": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+      "precio": 22.6,
+      "disponibilidad": true,
+      "calificacion": 4
+    },
+    {
+      "titulo": "The Black Maria",
+      "precio": 52.15,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "Starving Hearts (Triangular Trade Trilogy, #1)",
+      "precio": 13.99,
+      "disponibilidad": true,
+      "calificacion": 2
+    },
+    {
+      "titulo": "Shakespeare's Sonnets",
+      "precio": 20.66,
+      "disponibilidad": true,
+      "calificacion": 4
+    },
+    {
+      "titulo": "Set Me Free",
+      "precio": 17.46,
+      "disponibilidad": true,
+      "calificacion": 5
+    },
+    {
+      "titulo": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+      "precio": 52.29,
+      "disponibilidad": true,
+      "calificacion": 5
+    },
+    {
+      "titulo": "Rip it Up and Start Again",
+      "precio": 35.02,
+      "disponibilidad": true,
+      "calificacion": 5
+    },
+    {
+      "titulo": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+      "precio": 57.25,
+      "disponibilidad": true,
+      "calificacion": 3
+    },
+    {
+      "titulo": "Olio",
+      "precio": 23.88,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+      "precio": 37.59,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "Libertarianism for Beginners",
+      "precio": 51.33,
+      "disponibilidad": true,
+      "calificacion": 2
+    },
+    {
+      "titulo": "It's Only the Himalayas",
+      "precio": 45.17,
+      "disponibilidad": true,
+      "calificacion": 2
+    }
+  ],
+  "categoria_mystery": [
+    {
+      "titulo": "Sharp Objects",
+      "precio": 47.82,
+      "disponibilidad": true,
+      "calificacion": 4
+    },
+    {
+      "titulo": "In a Dark, Dark Wood",
+      "precio": 19.63,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "The Past Never Ends",
+      "precio": 56.5,
+      "disponibilidad": true,
+      "calificacion": 4
+    },
+    {
+      "titulo": "A Murder in Time",
+      "precio": 16.64,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "The Murder of Roger Ackroyd (Hercule Poirot #4)",
+      "precio": 44.1,
+      "disponibilidad": true,
+      "calificacion": 4
+    },
+    {
+      "titulo": "The Last Mile (Amos Decker #2)",
+      "precio": 54.21,
+      "disponibilidad": true,
+      "calificacion": 2
+    },
+    {
+      "titulo": "That Darkness (Gardiner and Renner #1)",
+      "precio": 13.92,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "Tastes Like Fear (DI Marnie Rome #3)",
+      "precio": 10.69,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "A Time of Torment (Charlie Parker #14)",
+      "precio": 48.35,
+      "disponibilidad": true,
+      "calificacion": 5
+    },
+    {
+      "titulo": "A Study in Scarlet (Sherlock Holmes #1)",
+      "precio": 16.73,
+      "disponibilidad": true,
+      "calificacion": 2
+    },
+    {
+      "titulo": "Poisonous (Max Revere Novels #3)",
+      "precio": 26.8,
+      "disponibilidad": true,
+      "calificacion": 3
+    },
+    {
+      "titulo": "Murder at the 42nd Street Library (Raymond Ambler #1)",
+      "precio": 54.36,
+      "disponibilidad": true,
+      "calificacion": 4
+    },
+    {
+      "titulo": "Most Wanted",
+      "precio": 35.28,
+      "disponibilidad": true,
+      "calificacion": 3
+    },
+    {
+      "titulo": "Hide Away (Eve Duncan #20)",
+      "precio": 11.84,
+      "disponibilidad": true,
+      "calificacion": 1
+    },
+    {
+      "titulo": "Boar Island (Anna Pigeon #19)",
+      "precio": 59.48,
+      "disponibilidad": true,
+      "calificacion": 3
+    },
+    {
+      "titulo": "The Widow",
+      "precio": 27.26,
+      "disponibilidad": true,
+      "calificacion": 2
+    },
+    {
+      "titulo": "Playing with Fire",
+      "precio": 13.71,
+      "disponibilidad": true,
+      "calificacion": 3
+    },
+    {
+      "titulo": "What Happened on Beale Street (Secrets of the South Mysteries #2)",
+      "precio": 25.37,
+      "disponibilidad": true,
+      "calificacion": 5
+    },
+    {
+      "titulo": "The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)",
+      "precio": 52.3,
+      "disponibilidad": true,
+      "calificacion": 5
+    },
+    {
+      "titulo": "Delivering the Truth (Quaker Midwife Mystery #1)",
+      "precio": 20.89,
+      "disponibilidad": true,
+      "calificacion": 4
+    }
+  ],
+  "total_libros": 40,
+  "fecha_extraccion": "2026-02-24T08:58:59.204Z"
+}

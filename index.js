@@ -3,8 +3,13 @@
  * Orquesta la extracción de datos de libros.
  */
 
+const fs = require('fs');
+const path = require('path');
 const { BASE_URL, CATEGORY_URL, CATEGORY_NAME, BOOKS_LIMIT } = require('./src/config');
 const { fetchPage, parseBooks } = require('./src/scraper');
+
+// Nombre del archivo de salida
+const OUTPUT_FILE = 'libros_extraidos.json';
 
 /**
  * Función principal que ejecuta todo el proceso de scraping.
@@ -36,8 +41,20 @@ async function main() {
         console.log(`     Precio: ${book.precio}€ | Estrellas: ${'⭐'.repeat(book.calificacion)} (${book.calificacion}) | En stock: ${book.disponibilidad ? 'Sí' : 'No'}`);
     });
 
-    // Resumen final
-    console.log(`\n📊 Resumen: ${mainBooks.length} libros de la página principal + ${categoryBooks.length} libros de "${CATEGORY_NAME}" = ${mainBooks.length + categoryBooks.length} libros en total.`);
+    // --- Paso 3: Combinar y guardar los resultados en JSON ---
+    const allBooks = {
+        pagina_principal: mainBooks,
+        categoria_mystery: categoryBooks,
+        total_libros: mainBooks.length + categoryBooks.length,
+        fecha_extraccion: new Date().toISOString()
+    };
+
+    // Guardar en archivo JSON
+    const outputPath = path.join(__dirname, OUTPUT_FILE);
+    fs.writeFileSync(outputPath, JSON.stringify(allBooks, null, 2), 'utf-8');
+
+    console.log(`\n💾 Datos guardados en: ${OUTPUT_FILE}`);
+    console.log(`📊 Resumen: ${mainBooks.length} libros de la página principal + ${categoryBooks.length} libros de "${CATEGORY_NAME}" = ${allBooks.total_libros} libros en total.`);
 }
 
 // Ejecutar la función principal
