@@ -23,6 +23,21 @@ async function main() {
         console.log(`  ${index + 1}. ${book.titulo}`);
         console.log(`     Precio: ${book.precio}€ | Estrellas: ${'⭐'.repeat(book.calificacion)} (${book.calificacion}) | En stock: ${book.disponibilidad ? 'Sí' : 'No'}`);
     });
+
+    // --- Paso 2: Extraer 20 libros de la categoría específica (Mystery) ---
+    console.log(`\n📖 Extrayendo ${BOOKS_LIMIT} libros de la categoría "${CATEGORY_NAME}"...`);
+    const categoryPageHtml = await fetchPage(CATEGORY_URL);
+    const categoryBooks = parseBooks(categoryPageHtml, BOOKS_LIMIT);
+    console.log(`✅ Se extrajeron ${categoryBooks.length} libros de la categoría "${CATEGORY_NAME}".\n`);
+
+    // Mostrar los libros de la categoría
+    categoryBooks.forEach((book, index) => {
+        console.log(`  ${index + 1}. ${book.titulo}`);
+        console.log(`     Precio: ${book.precio}€ | Estrellas: ${'⭐'.repeat(book.calificacion)} (${book.calificacion}) | En stock: ${book.disponibilidad ? 'Sí' : 'No'}`);
+    });
+
+    // Resumen final
+    console.log(`\n📊 Resumen: ${mainBooks.length} libros de la página principal + ${categoryBooks.length} libros de "${CATEGORY_NAME}" = ${mainBooks.length + categoryBooks.length} libros en total.`);
 }
 
 // Ejecutar la función principal
