@@ -1,9 +1,11 @@
 {
   "name": "scraping-books",
   "version": "1.0.0",
-  "description": "```bash mkdir scraping-books cd scraping-books ```",
+  "description": "Script de scraping para extraer datos de libros desde books.toscrape.com usando Node.js, Axios y Cheerio.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
